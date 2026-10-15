@@ -31,6 +31,12 @@ The project demonstrates practical Python programming skills including:
 - Generates an itemised order summary and running total
 - Sorts and merges duplicate product entries by product code
 
+## Technologies
+
+- Python
+- Jupyter Notebook
+- Git & GitHub
+
 ## How to Run
 ```bash
 python shopping_cart.py
@@ -51,3 +57,22 @@ The program is broken into functions by responsibility:
 - `add_record()` — handles one full item-adding transaction
 - `show_record()` / `total_cost()` — displays the cart and running total
 - `sort_records()` — sorts and merges records by product code
+
+## Technical Implementation
+
+The application uses a modular function-based design to separate different
+parts of the shopping cart workflow.
+
+Key implementation features include:
+
+- **Input validation** using dedicated validation functions for product codes
+  and quantities.
+- **Data processing** using lists, tuples and dictionaries to store and
+  organise shopping records.
+- **Sorting and aggregation** using `sorted()` and a dictionary to merge
+  multiple purchases of the same product.
+- **Business logic** for calculating membership discounts and delivery fees.
+- **Formatted output** using Python f-strings to produce readable catalogues
+  and order summaries.
+- **Control flow** using loops and conditional statements to manage the
+  interactive shopping process.
