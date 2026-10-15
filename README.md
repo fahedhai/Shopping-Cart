@@ -1,23 +1,35 @@
-# Shopping Cart Simulation (CSC1401 Assessment 3)
+# 🛒 Shopping Cart Simulation
 
-A command-line Python program simulating a simple shopping cart system.
-Users browse a 40-item catalogue, add items to their cart (choosing
-membership status, quantity, and shipping method), then view an itemized
-summary, total cost, and a version of the cart sorted and merged by
-product code.
+**Course:** CSC1401 — Assessment 3  
+**Team ID:** 37  
+**Authors:** Xavier Jackson, Fahed Haidar — IT/Data Science Student
 
-**Team ID:** 37
-**Authors:** Xavier Jackson, Fahed Haidar
+## Project Overview
 
-## Features
-- Displays a formatted two-column product catalogue (40 items, codes 0-39)
-- Input validation for product code, quantity, and shipping method
-- Membership discount (10% off for members)
-- Delivery fee calculation based on quantity (flat $2 + $1.60 per extra item),
-  or free Pick-up
-- Order summary with itemized records and running total
-- Sorted/merged view: combines multiple entries of the same product into
-  one line with summed quantity and cost
+A command-line Python shopping cart application developed as part of CSC1401 Assessment 3.
+
+The program simulates a complete shopping experience where users can browse a 40-item product catalogue, add products to a cart, select membership and shipping options, and receive an itemised order summary.
+
+The project demonstrates practical Python programming skills including:
+
+- Functions and modular program design
+- Input validation
+- Lists and data structures
+- Conditional logic
+- Loops and user interaction
+- Sorting and data processing
+- Calculations and formatted output
+- Jupyter Notebook development
+
+## Key Features
+
+- Displays a formatted two-column product catalogue containing 40 products
+- Validates product codes, quantities, membership status and shipping method
+- Applies a 10% membership discount
+- Calculates delivery fees based on quantity
+- Provides free Pick-up as an alternative shipping method
+- Generates an itemised order summary and running total
+- Sorts and merges duplicate product entries by product code
 
 ## How to Run
 ```bash
